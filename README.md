@@ -4,9 +4,9 @@ hit this command in your command prompt or terminal "npm i -y" so that node modu
 
 Once you code html and css, and so on, hit this command to see how your website works "npm run dev"
 
-You are able to set your own custom css like darkBlue in tailwind.config.js:
+You are able to set your own custom css like darkBlue in tailwind.config.js: 
 
-/** @type {import('tailwindcss').Config} */
+`/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./dist/*.{html, js}"],
   theme: {
@@ -29,4 +29,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+};`
